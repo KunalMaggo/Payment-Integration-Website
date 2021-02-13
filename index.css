@@ -1,0 +1,186 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+body{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+header{
+    position: fixed;
+    height: 80px;
+    width: 100%;
+    z-index: 100;
+    background-color: transparent;
+    transition: all 0.5s;
+}
+header.active{
+    color: black;
+    position: fixed;
+    height: 80px;
+    width: 100%;
+    z-index: 100;
+    background-color: white;
+    transition: all 0.5s;
+}
+header.active .signup-button{
+    color: black;
+}
+header.active .navigate a{
+    color: black;
+}
+.nav-bar{
+    width: 90%;
+    margin: auto;
+}
+.logo img{
+    height: 80px;
+    width: 140px;
+    margin: 0 40px;
+    float: left;
+}
+/* a{
+    color: white;
+} */
+ul{
+    box-sizing: border-box;
+    margin: 30px 10px;
+    text-transform: uppercase;
+}
+li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+}
+hr{
+    display: inline;
+}
+.navigate{
+    float: left;
+    font-size:larger;
+}
+.navigate a{
+    color: white;
+}
+.login{
+    float: right;
+    margin-right: 50px;
+    font-size:larger;
+}
+.login a{
+    color: white;
+}
+.login .login-button{
+    color: white;
+    background-color: #2a9d8f;
+    padding: 8px 15px;
+    border-radius: 10%;
+}
+.overview{
+    height: 1013px;
+    z-index: -1;
+    background-image: url(https://images.unsplash.com/photo-1488521787991-ed7bbaae773c?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80);
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: relative;
+}
+.quote{
+
+    position: absolute;
+    text-align: center;
+    font-size: 2rem;
+    color: white;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.author{
+    position: absolute;
+    font-size: 1rem;
+    color: white;
+    top: 45%;
+    left: 67%;
+    transform: translate(-50%, -50%);
+}
+.donate-section{
+    /* background-color: #f1faee; */
+    background-image: url(https://images.pexels.com/photos/9749/hands-water-poor-poverty.jpg?cs=srgb&dl=pexels-creative-vix-9749.jpg&fm=jpg);
+    height: 400px;
+    width: 500px;
+    background-repeat: no-repeat;
+    position: relative;
+    border-radius: 5%;
+    transform: translate(525px,-200px);
+}
+.donate-button{
+    display: block;
+    width: 230px;
+    height: 50px;
+    background: #2a9d8f;
+    padding: 20px;
+    text-align: center;
+    border-radius: 10px ;
+    color: white;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 50px;
+    position: absolute;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.footer{
+    height: 200px;
+    background-color: #d3d3d3;
+    margin-top: -100px;
+}
+.container{
+    width: 90%;
+    margin: auto;
+}
+.social img{
+    height: 60px;
+    width: 60px;
+}
+.social .social-icons{
+    margin-left: 35%;
+    padding-top: 30px;
+}
+.contact{
+    margin-top: 50px;
+}
+.contact p{
+    display: inline-block;
+    font-weight: bolder;
+}
+.contact .email{
+    margin: 0 100px;
+}
+.contact .phone{
+    margin: 0 0 0 230px;
+}
+.contact .address{
+    margin: 0 0 0 280px;
+}
+.overview .about{
+    color: white;
+    display: inline-block;
+    position: relative;
+    font-size: 3rem;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.about-website{
+    width: 100%;
+    height: 500px;
+    background-color: white;
+    position: relative;
+    top: 50%;
+}
+.about-website p{
+    font-size: 2rem;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    padding-top: 55px;
+}
